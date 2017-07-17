@@ -6,8 +6,7 @@ import Router from 'vue-router'
 import Layout from '../view/layout/Layout.vue'
 
 Vue.use(Router);
-
-export const constantRouteMap = [
+export const constantRouterMap = [
     {
         path: '/',
         component:Layout,
@@ -18,5 +17,5 @@ export const constantRouteMap = [
 ]
 
 export default new Router({
-    routes:constantRouteMap
+    routes:constantRouterMap
 })
